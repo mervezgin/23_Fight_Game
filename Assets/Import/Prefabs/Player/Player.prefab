@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7456907632707694600}
   - component: {fileID: 894794995456931170}
   - component: {fileID: 2872451516635908295}
+  - component: {fileID: 3195763151121682435}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -97,6 +98,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31d401f73af624dfd910078922604b99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3195763151121682435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5851056113755425936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75247161d0d14436193688e4d405f11b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8769649035455337497
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -164,8 +177,28 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100110, guid: 68ff77d4e131db34586dc6f268e92dca, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4224918649225866544}
   m_SourcePrefab: {fileID: 100100000, guid: 68ff77d4e131db34586dc6f268e92dca, type: 3}
+--- !u!1 &8769649035455238935 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100110, guid: 68ff77d4e131db34586dc6f268e92dca, type: 3}
+  m_PrefabInstance: {fileID: 8769649035455337497}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4224918649225866544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8769649035455238935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43bad7a1473734a1f9f4c8c6fd617b73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &8769649035455729399 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400110, guid: 68ff77d4e131db34586dc6f268e92dca, type: 3}
