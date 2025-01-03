@@ -60,7 +60,6 @@ public class PlayerAttack : MonoBehaviour
             else if (currentComboState == ComboState.KICK1)
             {
                 currentComboState++;
-                Debug.Log(currentComboState);
             }
             activateTimerToReset = true;
             currentComboTimer = defaultComboTimer;

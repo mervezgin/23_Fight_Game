@@ -74,7 +74,7 @@ public class CharacterAnimation : MonoBehaviour
     {
         animator.SetTrigger(KNOCKDOWN);
     }
-    public void StanUp()
+    public void StandUp()
     {
         animator.SetTrigger(STANDUP);
     }
